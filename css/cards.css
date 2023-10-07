@@ -1,0 +1,193 @@
+html{
+	overflow-x: hidden;
+	
+}
+body{
+	background-color: #10041c;
+	width: 100%;
+}
+
+
+.sailka {
+	display: block;
+	height: 700px;
+	width: 500px;
+	position: relative;
+	margin: 0 20px 20px 0;
+	text-decoration: none;
+}
+
+.title_parts{
+	position: relative;
+	color: White;
+	 font-family: "Mariupol-Medium";
+	width: 100%;
+	height: 50px;
+	font-size: 18pt;
+	text-align: center;
+}
+
+@media (min-width: 1000px){
+	.title_parts{
+		top:100px;
+		
+	}
+}
+
+@media (max-width: 1001px){
+	.title_parts{
+		top:150px;
+	}
+}
+
+h2{
+	font-family: Calibri;
+}
+p {
+	font-family: Calibri;
+	padding: 0;
+	margin: 5px;
+	margin-left: 10%;
+}
+
+.laptopcards-container{
+	padding-top: 150px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	flex-direction: row;	
+	padding-top: 1%;
+}
+
+.links_card{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 0px;
+	padding-bottom: 10%;
+	text-decoration: none;
+	height: 700px;
+	width: 500px;
+}
+
+.laptop-card {
+	display: block;
+	border: 5px solid black;
+	border-radius: 100px;
+	position: relative;
+	background: #f0f9fe;
+	margin: 0 20px 20px 0;
+	text-decoration: none;
+	color: #474747;
+	z-index: 0;
+	height: 700px;
+	width: 500px;
+}
+
+
+.laptop-picture {
+	position: relative;
+	margin: 0;
+	top: 0;
+	left: 0;
+	overflow: hidden;
+	width: 100%;
+	height: 100%;
+	background-size: cover
+}
+
+.laptop-name{
+	text-align: center;
+	padding-bottom: 10px;
+}
+
+@media only screen and (min-width: 600px) {
+	.descr-container{
+		position: relative;
+		top: -1%;
+		column-count: 2;
+		text-align: center;
+		font-size: 18pt;
+		padding-left: 5%;
+		padding-right: 5%;
+		
+	}
+	.bock{
+		font-size: 18pt;
+	}
+
+	.Links_card {
+		margin: 0;
+		padding: 0;
+		width: 70%;
+	}
+
+	.laptop-picture {
+		position: relative;
+		right: 50%;
+		width: 100%;
+		height: 45%;
+		margin: 0;
+		margin-bottom: 10%;
+	}
+	
+	.laptop-card{
+		width: 100%;
+
+	}
+	.laptop-image {
+		width: 100%;
+		max-height:100%;
+	}
+
+	.laptopcards-container{
+		display: flex;
+		align-items: center;
+		flex-direction: column;
+		justify-content: center;
+		padding-top: 20%;
+	}
+	
+}
+
+@media only screen and (min-width: 1024px) {
+	
+	.descr-container{
+		column-count: 3;
+	}
+	
+	.descr-container p{
+		padding-left: 10%;
+		padding-right: 15%;
+		font-size: 14pt;
+	}
+
+	.bock {
+		font-size: 15pt;
+	}
+
+	.Links_card {
+		margin: 0;
+		padding: 0;
+		height: 700px;
+		width: 500px;
+	}
+
+	.laptop-picture{
+		position: relative;
+		top:0;
+		left:0;
+		width: 100%;
+		height: 50%;
+	}
+	
+	.laptop-card{
+		max-height: 700px;
+		max-width: 500px;
+	}
+	.laptopcards-container {
+		justify-content: space-around;
+		flex-direction: row;
+		padding-top: 130px;
+	}
+}

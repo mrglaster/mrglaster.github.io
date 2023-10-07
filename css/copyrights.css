@@ -1,0 +1,28 @@
+main{
+    height: 100%;
+    width: 100%;
+	background-color: #10041c;
+}
+.minfo{
+    padding-top: 70px;
+    padding-left: 5%;
+    font-family:Calibri;
+    font-size: 40pt;
+    color: white;
+	padding-bottom: 10%;
+}
+
+.Links {
+    text-decoration: none;
+    color: white;
+}
+.Links:hover{
+    color: blue;
+}
+
+ul {
+    list-style-type: none;
+}
+li {
+    padding-left: 5%;
+}

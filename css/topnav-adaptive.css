@@ -1,0 +1,152 @@
+@font-face {
+    font-family: "Mariupol-Medium";
+    src: url(../font/Mariupol-Medium.ttf);
+}
+
+.row {
+    display: table-row;
+}
+
+.box {
+    display: table-cell;
+    
+}
+
+body{
+    width: 100%;
+}
+
+header {
+    width: 100%;
+    max-height: 400px;
+    display: table;
+    font-family: Mariupol-Medium;
+}
+
+.nav_panel {
+    display: table-row;
+    width: 100%;
+    overflow: hidden;
+    position: fixed;
+    left: 0;
+    top: 0;
+    background-color: #6ba0cc;
+    max-height: 300px;
+    padding-bottom: 1%;
+	z-index: 7;
+}
+
+.logo {
+    vertical-align: middle;
+    width: 40%;
+    padding-left: 10%;
+}
+
+.Logo_img {
+    height: 3em;
+    margin-top: 0.9em;
+}
+
+.Logo_text {
+    font-size: 3em;
+    text-align: left;
+    vertical-align: middle;
+    color: white;
+}
+
+.SV {
+    display: block;
+    position: absolute;
+    width: 280px;
+    height: 50px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.topnav {
+    width: 100%;
+    display: table-cell;
+    right: 0;
+    top: 0;
+    margin-left: 8%;
+    padding-top: 2.5%;
+    background-color: #6ba0cc;
+    padding-bottom: 0.8em;
+    font-family: Mariupol-Medium;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  height: 100%;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-decoration: none;
+  
+}
+
+.nav_text {
+    font-size: 200%;
+}
+
+.icon {
+    position: absolute;
+    right: 0;
+    top: -4%;
+    font-size: 70px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  max-height: 40pt;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+@media screen and (max-width: 1000px) {
+
+    .topnav a {
+        display: none;
+    }
+    
+    .topnav a.icon {
+        float: right;
+        display: block;
+        font-size: 30pt;
+    }
+
+    .SV {
+        width: 30pt;
+        height: 300px;
+    }
+
+    .topnav.responsive {
+        position: fixed;
+        font-size: 14pt;
+    }
+
+    .nav_panel{
+        font-size: 8pt;
+    }
+  .topnav.responsive a.icon {
+    position: absolute;
+    font-size: 30pt;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}

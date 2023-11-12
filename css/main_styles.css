@@ -3,11 +3,36 @@
     src: url(../font/Mariupol-Medium.ttf);
 }
 
+
+
+/* Добавление отступов между секциями */
+section {
+    margin-bottom: 20px; /* Регулируйте эту величину по своему усмотрению */
+    padding: 20px;
+
+}
+
+/* Стили для первой секции (Превью) */
+.previu {
+    background-color: #f9f9f9; /* Цвет фона */
+}
+
+/* Стили для второй секции (Информация о проекте) */
+.block_info:nth-child(3) { /* Измените на соответствующий индекс, если это не вторая секция */
+    background-color: #000A16; /* Цвет фона */
+}
+
+/* Стили для третьей секции (Преимущества сборки) */
+.block_info:nth-child(5) { /* Измените на соответствующий индекс */
+    background-color: #000A16; /* Цвет фона */
+}
+
+
 body {
     width: 100%;
     margin:0;
     padding:0;
-    background-color: #000000;
+    background-color: #000A16;
     font-family: "Mariupol-Medium";
 }
 
